@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meie+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --font-color: #4C5B43;
+    --card-color: #FBEEDF;
+}
+
+body {
+    font-family: 'Vollkorn', serif;
+    background: url(bg.jpg);
+    background-attachment: fixed;
+    background-color: var(--card-color);
+    box-shadow: inset 27px 54px 62px rgba(0, 0, 0, 0.25);
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h2 {
+    color: var(--font-color);
+    text-align: center;
+    padding: 1% 4%;
+    font-weight: 700;
+    font-size: 43.7647px;
+    line-height: 61px;
+    font-family: 'Vollkorn', serif;
+}
+
+h1 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 52px;
+    letter-spacing: 5px;
+    font-variant: small-caps;
+    color: var(--font-color);
+    padding: 1%;
+    margin: 5%;
+    margin-top: 1%;
+}
+
+.heading {
+    background-color: var(--card-color);
+}
+
+.problem {
+    background: url(e.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+    margin-left: 5%;
+    padding: 9%;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42.8571px;
+    line-height: 60px;
+    padding-bottom: 2%;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: justify;
+    padding-bottom: 2%;
+}
+
+li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.about {
+    background: url(e.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 75%;
+    padding: 16%;
+    margin: 3% 0;
+    margin-left: auto;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 25px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+.tan,
+.aaru,
+.prag,
+.pari {
+    display: flex;
+    background-color: var(--card-color);
+    /* border: 1px solid #000000; */
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+h4 {
+    font-family: 'Meie Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120.326px;
+    line-height: 180px;
+    transition: 1s;
+    padding-right: 1%;
+}
+
+.tan p,
+.aaru p,
+.pari p,
+.prag p {
+    display: none;
+    width: 60%;
+    padding: 2% 1%;
+    font-size: 20px;
+    transition: 1.6s;
+    color: black;
+}
+
+.aaru p span,.pari p span, .prag p span, .tan p span{
+    font-size: 49px;
+    color: var(--font-color);
+    font-family: 'Meie Script';
+
+}
+
+.tan {
+    /* background: url(https://i.pinimg.com/564x/3d/33/9c/3d339c506115e1c93e93ea4daebd47d7.jpg); */
+    background: url(https://i.pinimg.com/564x/89/22/8c/89228cfe962546b81ba1b76f979b6607.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: var(--card-color);
+
+}
+.prag {
+    background: url(https://i.pinimg.com/564x/12/8a/ee/128aeea36d562be50ae9558fd6cba286.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--font-color);
+}
+.aaru {
+    /* background: url(https://i.pinimg.com/564x/e7/95/a1/e795a16c0c618bb79aaa54acb52da4e6.jpg); */
+    background: url(https://i.pinimg.com/564x/60/80/17/608017d6a2308092a0c0450805c8376a.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: black;
+}
+.pari {
+    background: url(https://i.pinimg.com/564x/d9/2f/d3/d92fd38d748d0bbc46a4b5ee1429e58a.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--card-color);
+}
+
+.tan:hover h4,
+.aaru:hover h4,
+.pari:hover h4,
+.prag:hover h4 {
+    font-size: 50px;
+    transform: translateY(-20px);
+    -webkit-text-stroke: 1px black;
+    /* color: var(--card-color); */
+}
+
+.pari:hover h4{
+    color: black;
+}
+
+.tan:hover p,
+.aaru:hover p,
+.pari:hover p,
+.prag:hover p {
+    display: block;
+    background-color: #FBEEDF;
+}
+
+
+.grid {
+    display: grid;
+    grid-gap: 100px;
+    margin: 15% 0 7% 0;
+    /* border: 1px solid black; */
+    padding: 4%;
+}
+
+.prag h4 {
+    font-size: 90px;
+}
+
+.tan h4 {
+    font-size: 80px;
+}
+
+.end{
+    background-color: #FBEEDF;
+}
+
+.end p span{
+    font-family: 'Meie Script';
+    padding: 0 2%;
+    font-size: 60px;
+}
+
+.end p:first-child{
+    font-size: 50px;
+    padding: 5%;
+}
+
+.end p:nth-child(2){
+    padding: 0 5% 5% 5%;
+}
+
+.end button{
+margin: 0 5% 5% 5%;
+}
+
+/* @media screen and (max-width: 700px){
+    .problem{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .about{
+        width: 100%;
+        margin-left: 10%;
+    }
+} */
+
+.submit-btn{
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    
+}
+#result{
+    width:425px;  
+    background-color: #f4dabd;
+    /* border:2px solid var(--font-color); */
+    border-radius:20px;
+}
+a{
+    position:relative;
+    width:400px;
+    height:50px;
+    margin:15px 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    overflow: hidden;
+}
+a::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left:0;
+    width:0px;
+    height:100%;
+    background:var(--card-color);
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.5s;
+
+}
+a::after{
+    content:"";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:0px;
+    height:100%;
+    background:var(--card-color);
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.5s;
+
+}
+a:hover::before,
+a:hover::after{
+    width:50%;
+    transition-delay: 0s;
+
+}
+a span{
+    position: absolute;
+    /* text-transform: uppercase; */
+    z-index:1;
+    color: var(--font-color);
+    font-size:20px;
+    transition: .5s;
+}
+a span:nth-child(1){
+    transition-delay:0.25s;
+}
+a:hover span:nth-child(1){
+    transform: scale(0);
+}
+a span:nth-child(2){
+    transform: scale(3);
+    opacity:0;
+    color: var(--font-color);
+    transition-delay: 0s;
+
+}
+a:hover span:nth-child(2){
+    transform: scale(1);
+    transition-delay: 0s;
+    opacity:1;
+    z-index:10;
+    transition-delay: 0.5s;
+}
+
+@media screen and (max-width: 700px){
+    .problem{
+        width: 90%;
+        height: 100%;
+        background-size: 100% 100%;
+    }
+    .problem{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .about{
+        width: 100%;
+        height: 150%;
+        margin-left: 5%;
+        background-size: 100% 100%;
+    }
+    .about{
+        text-align: center;
+    }
+    
+}

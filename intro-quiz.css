@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meie+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --font-color: #4C5B43;
+    --card-color: #FBEEDF;
+}
+
+body {
+    font-family: 'Vollkorn', serif;
+    background: url(bg.jpg);
+    background-attachment: fixed;
+    background-color: var(--card-color);
+    box-shadow: inset 27px 54px 62px rgba(0, 0, 0, 0.25);
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h2 {
+    color: var(--font-color);
+    text-align: center;
+    padding: 1% 4%;
+    font-weight: 700;
+    font-size: 43.7647px;
+    line-height: 61px;
+    font-family: 'Vollkorn', serif;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+h1 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 52px;
+    letter-spacing: 5px;
+    font-variant: small-caps;
+    color: var(--font-color);
+    padding: 1%;
+    margin: 5%;
+}
+
+.heading {
+    background-color: var(--card-color);
+}
+
+p:not(p:last-child) {
+    font-family: 'Meie Script', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 43px;
+    padding: 2% 0;
+}
+
+.first {
+    background-color: var(--card-color);
+    margin: auto;
+    margin-bottom: 8%;
+    padding: 4%;
+    width: 60%;
+    border: 1px solid black;
+    box-shadow:
+        0 0 0 10px var(--card-color),
+        0 0 0 11px black;
+    /* animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; */
+} 
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+p:last-child {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 31px;
+    text-align: right;
+}
+
+p a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+p a:hover {
+    text-decoration: underline;
+}

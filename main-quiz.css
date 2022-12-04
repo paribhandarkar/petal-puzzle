@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meie+Script&display=swap');
+
+* {
+    font-size: 105%;
+    margin: 0%;
+    font-family: 'Vollkorn', serif;
+    /* overflow-x: hidden; */
+}
+
+:root {
+    --font-color: #4C5B43;
+    --card-color: #FBEEDF;
+}
+
+body {
+    background-image: url(https://64.media.tumblr.com/31e1066fa8648e12ed84235cbc02d5c4/a875299eb0bfe621-b3/s2048x3072/46eff03fc883428fa4b3d6ee4282decefd7e0707.jpg);
+    background-attachment: fixed;
+}
+
+nav {
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    /* line-height: 52px; */
+    letter-spacing: 5px;
+    font-variant: small-caps;
+    color: var(--font-color);
+    /* margin-top: 1%; */
+}
+
+div {
+    margin-bottom: 30px;
+    font-size: 60%;
+}
+
+.options {
+    border: 1px solid black;
+    width: 395px;
+    font-size: 120%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.options:hover {
+    background-color: antiquewhite;
+}
+
+#top {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 900;
+    padding: 0;
+    padding-top: 1%;
+    /* margin-top: 20px; */
+    color: var(--font-color);
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 15px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+nav {
+    text-align: center;
+    font-size: 150%;
+    font-weight: 900;
+    background-color: var(--card-color);
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+#full {
+    display: grid;
+    gap: 100px;
+}
+
+#q1,
+#q2,
+#q3,
+#q4,
+#q5,
+#q6,
+#q7,
+#q8,
+#q9,
+#q10 {
+    width: 500px;
+    background-color: var(--card-color);
+    margin-left: 10%;
+    padding: 50px;
+}
+
+input {
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+input[type=radio] {
+    transform: scale(1.8);
+}
+
+
+details {
+    margin-top: -32px;
+    font-size: 100%;
+    color: transparent;
+}
+
+legend {
+    font-size: 80%;
+    padding: 0 5%;
+    text-align: center;
+    background-color: var(--card-color);
+    border: 1px solid var(--font-color);
+}
+
+#submit1 {
+    width: 100px;
+}
+
+.card {
+    background-color: var(--card-color);
+}
+
+#c_1,
+#c_2,
+#c_3,
+#c_4,
+#c_5,
+#c_6,
+#c_7,
+#c_8,
+#c_9,
+#c_10 {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.to_the_top {
+    text-decoration: none;
+    color: black;
+    background-color: var(--card-color);
+    font-size: larger;
+    padding: 1% 2%;
+    border-radius: 10%;
+    border: 1px solid black;
+}
+
+.to_the_top:hover {
+    box-shadow: 0 5px 50px 0 #f0e3d5 inset, 0 5px 10px 0 #ebd6c0,
+        0 5px 50px 0 #dccbb9 inset, 0 5px 50px 0 #dbc4ab;
+}
+
+#result {
+    padding: 0;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+p{
+    padding: 5%;
+    margin-bottom: 3%;
+    font-size: medium;
+    text-align: justify;
+}
+
+
+#q1,
+#q2,
+#q3,
+#q4,
+#q5,
+#q6,
+#q7,
+#q8,
+#q9,
+#q10{ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid var(--font-color);
+
+}
+
+#q1{
+    background: url(https://d1nfcimmipiaw0.cloudfront.net/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/d/u/dusty_miller_flat_leaf.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#q2 {
+    background: url(https://i.etsystatic.com/9817393/r/il/422538/1202540192/il_570xN.1202540192_eacl.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#q3 {
+    background: url(https://www.growjoy.com/store/pc/catalog/white_orchid_plant__703_detail.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#q4 {
+    background: url(https://images.unsplash.com/photo-1575178094668-132dc931ad35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGVvbnl8ZW58MHx8MHx8&w=1000&q=80);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#q5 {
+    background: url(https://images.unsplash.com/photo-1588834747799-82f691b36ff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8c3VuZmxvd2Vyc3xlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#q6 {
+    background: url(https://www.gardenbythesea.org/site/assets/files/1912/bonnie_and_scott_married_tammie_gilchrist-0204.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#q7 {
+    background: url(https://extension.umd.edu/sites/extension.umd.edu/files/styles/optimized/public/2021-11/hgic_shrubs_common_lilac_MT_1400.jpg?itok=gN_9SpYe);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#q8 {
+    background: url(https://static.onecms.io/wp-content/uploads/sites/34/2020/04/16/gerbera-daisies-getty-0420.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#q9 {
+    background: url(https://b3n8a3n8.rocketcdn.me/wp-content/uploads/2021/12/amaryllis-hippeastrum-01-1140x1710.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#q10 {
+    background: url(https://gardenerspath.com/wp-content/uploads/2018/03/Everything-You-Need-to-Know-to-Grow-Hyacinths.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.submit-btn {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    gap: 20px;
+    margin-right: auto;
+    margin-left: 5%;
+}
+
+#result {
+    width: 450px;
+    background-color: var(--card-color);
+    border: 1px solid var(--font-color);
+    border-radius: 20px;
+}
+
+a:not(.sidea) {
+    position: relative;
+    width: 400px;
+    height: 50px;
+    margin: 15px 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+a::before:not(.sidea) {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: wheat;
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.5s;
+
+}
+
+a::after:not(.sidea) {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 4px;
+    height: 100%;
+    background: wheat;
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.5s;
+
+}
+
+a:hover::before,
+a:hover::after {
+    width: 50%;
+    transition-delay: 0s;
+
+}
+
+a span {
+    position: absolute;
+    z-index: 1;
+    font-weight: bold;
+    color: var(--font-color);
+    font-size: 28px;
+    transition: .5s;
+}
+
+a span:nth-child(1) {
+    transition-delay: 0.25s;
+}
+
+a:hover span:nth-child(1) {
+    transform: scale(0);
+}
+
+a span:nth-child(2) {
+    transform: scale(3);
+    opacity: 0;
+    color: var(--font-color);
+    transition-delay: 0s;
+
+}
+
+a:hover span:nth-child(2) {
+    transform: scale(1);
+    transition-delay: 0s;
+    opacity: 1;
+    z-index: 10;
+    transition-delay: 0.5s;
+}
+
+.btn-pos{
+    margin: auto;
+}
+.check-btn{
+    font-size:25px;
+    background-color: var(--card-color);
+    transition:0.5s;
+    margin-top: 20px;
+}
+.check-btn:hover{
+    box-shadow:0 5px 50px 0 #ecdac5 inset,0 5px 10px 0 #ecddcb,
+    0 5px 50px 0 #f5e1ca inset,0 5px 50px 0 #ac9277;
+}
+
+
+
+
+.side-bar {
+    display: grid;
+    /* grid-gap: 5px; */
+    padding: 3%;
+    background-color: var(--card-color);
+    justify-content: right;
+    position: fixed;
+    margin-left: 67%;
+    width: 250px;
+    border-radius: 30px;
+    border: 0.2px solid var(--font-color);
+    z-index: 20;
+    margin-top: -20px;
+    
+}
+
+.scroll{
+    scroll-behavior: smooth;
+}
+
+.side-bar p:first-child {
+    height: 30px;
+    font-size: 18.51px;
+    line-height: 26px;
+    text-transform: lowercase;
+}
+
+.side-bar p:nth-child(2) {
+    height: 30px;
+    font-size: 18.51px;
+    line-height: 26px;
+    text-transform: lowercase;
+    color: var(--font-color);
+}
+
+main{
+    display: flex;
+    align-items: flex-start;
+    gap: 150px;
+}
+
+.sidei{
+    padding: 0;
+}
+
+.sidel{
+    padding: 0 1%;
+}
+
+.sides a{
+    width: fit-content;
+    margin: auto;
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.sidea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hint-btn{
+    padding: 1% 2%;
+    font-size:25px;
+    background-color: var(--card-color);
+    transition:0.5s;
+    text-transform: lowercase;
+}
+
+.hint-btn:hover{
+    box-shadow:0 5px 50px 0 #ecdac5 inset,0 5px 10px 0 #ecddcb,
+    0 5px 50px 0 #f5e1ca inset,0 5px 50px 0 #ac9277;
+}
+
+.final{
+    padding: 0;
+    margin: 0;
+    font-size: initial;
+}

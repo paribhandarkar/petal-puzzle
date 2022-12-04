@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meie+Script&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+:root {
+    --font-color: #4C5B43;
+    --card-color: #FBEEDF;
+}
+
+body {
+    font-family: 'Vollkorn', serif;
+    background: url(bg.jpg);
+    background-attachment: fixed;
+    background-color: var(--card-color);
+    box-shadow: inset 27px 54px 62px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+    color: var(--font-color);
+    text-align: center;
+    padding: 1% 4%;
+    font-weight: 700;
+    font-size: 43.7647px;
+    line-height: 61px;
+    font-family: 'Vollkorn', serif;
+}
+
+h1 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 52px;
+    letter-spacing: 5px;
+    font-variant: small-caps;
+    color: var(--font-color);
+    padding: 1%;
+    margin: 5%;
+    margin-top: 1%;
+}
+
+.heading {
+    background-color: var(--card-color);
+}
+
+h3 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+h3 span {
+    background: var(--card-color);
+    padding: 0 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 155px;
+    margin: 7%;
+}
+
+section {
+    background-color: var(--card-color);
+}
+
+section:last-child {
+    height: min-content;
+}
+
+
+
+.side-bar {
+    display: grid;
+    grid-gap: 20px;
+    padding: 7%;
+}
+
+.side-bar p:first-child {
+    font-size: 18.51px;
+    line-height: 26px;
+    text-transform: lowercase;
+}
+
+.side-bar p:nth-child(2) {
+    font-size: 18.51px;
+    line-height: 26px;
+    text-transform: lowercase;
+    color: var(--font-color);
+}
+
+fieldset legend {
+    margin: auto;
+}
+
+span a {
+    text-decoration: none;
+    color: black;
+    display: table;
+    margin: 0 auto;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.q1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8% 5%;
+}
+
+h3{
+    font-size: 37px;
+    font-weight: 400;
+    padding-bottom: 5%;
+}
+
+section p{
+    padding-bottom: 5%;
+    text-align: justify;
+}
+
+img{
+    padding: 5%;
+}
+
+#c_1{
+    align-self: flex-start;
+    width: 90%;
+}
+
+label{
+    display: block;
+}
+
+

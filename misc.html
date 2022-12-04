@@ -1,0 +1,20 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Name - <span id="result-name"></span></p>
+    <script>
+                document.getElementById("result-name").innerHTML = localStorage.getItem("textvalue"); 
+    </script>
+    <p>Date - <span id="result-date"></span></p>
+    <p>Email - <span id="result-email"></span></p>
+    <p>Contact - <span id="result-contact"></span></p>
+</body>
+
+</html>
