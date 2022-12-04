@@ -39,7 +39,10 @@ Tanishqa took care of the radio button color change code. It was also because of
 Thanks to her amazing JS knowledge.
 
 
+
+
 What was ours is yours now.
 We chose “Flowers” as our main topic of the quiz. Birthdays, celebrations, weddings and funerals, flowers are so much a part of how we mark significant occasions. So time to stop smelling the roses and test your floral knowledge with our flower quiz. Maybe pick a four-leaf clover first, for luck!
+
 
 Take the quiz now!
